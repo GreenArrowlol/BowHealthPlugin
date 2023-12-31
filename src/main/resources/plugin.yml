@@ -1,0 +1,4 @@
+name: BowHealthPlugin
+version: '${project.version}'
+main: xyz.arrowtan.bowhealthplugin.BowHealthPlugin
+api-version: '1.18'

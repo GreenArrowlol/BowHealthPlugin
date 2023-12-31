@@ -1,0 +1,4 @@
+name: BowHealthPlugin
+version: '1.0'
+main: xyz.arrowtan.bowhealthplugin.BowHealthPlugin
+api-version: '1.18'
