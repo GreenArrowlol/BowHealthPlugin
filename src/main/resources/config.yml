@@ -1,0 +1,12 @@
+# Message shown to the shooter when they hit another player with an arrow.
+# Available placeholders:
+#   {player} - victim player's name
+#   {health} - victim health value (hearts or HP based on settings below)
+message-format: "&eThe health of &a{player}&e is &c{health}"
+
+# Number of decimal places used when formatting the health value.
+health-decimal-places: 0
+
+# If true, health is shown in hearts (20 HP -> 10 hearts).
+# If false, raw Minecraft health points are shown.
+show-health-in-hearts: true
