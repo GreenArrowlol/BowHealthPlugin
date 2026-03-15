@@ -4,6 +4,9 @@ on:
   release:
     types: [created]
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -19,7 +22,7 @@ jobs:
           java-version: 17
           cache: maven
 
-      - name: Build with Maven
+      - name: Build plugin
         run: mvn package
 
       - name: Upload jar to release
